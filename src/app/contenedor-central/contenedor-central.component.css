@@ -1,0 +1,25 @@
+.contenedor-imagen-central{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.caja-titulo-imagen-central{
+    display: flex;
+    position: absolute;
+}
+.titulo-imagen-central{
+     font-size: 105px;
+    font-weight: 700;
+}
+.imagencentral{
+    padding-top: 90px;    
+}
+
+h1{
+    color: #DBDA00;
+    font-weight: 700px;
+    height: 184;
+}
+.fondocolor{
+    background-color:  #083653; 
+}
