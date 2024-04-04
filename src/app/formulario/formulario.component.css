@@ -136,3 +136,12 @@ input::placeholder{
     font-size: 20px;
     padding-left: 15px;    
 }
+.boton {
+    background-color: #DBDA00;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+ }
