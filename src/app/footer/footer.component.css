@@ -1,0 +1,23 @@
+.piedepagina{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #083653;*/
+    background-color: #011826;
+}
+ul li{
+    list-style-type: none;
+    color: white;
+}
+ul{
+    margin-top: 20%;
+}
+.iconosredes{
+    font-size:xx-large;
+    color:white;
+    margin-right: 40px;
+    margin-top: 30px; 
+    display: flex;  
+}
+.iconosredes i{
+    margin-right: 10px;
+}
