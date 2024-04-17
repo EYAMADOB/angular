@@ -5,6 +5,9 @@ form{
     left: 35%;
     text-align: center;
 }
+.formulario__input.ng-invalid.ng-touched{
+    border:2px solid red;
+}
 .titulo-registro-informacion{
     color: white;
     font-size: 31px;
@@ -145,4 +148,7 @@ input::placeholder{
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 25px;
+ }
+ .mensaje_error{
+    color:#fff;
  }

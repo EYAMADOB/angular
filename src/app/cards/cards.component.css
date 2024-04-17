@@ -1,0 +1,30 @@
+.card{
+    width: 18rem;
+    /*margin-left: 60px;*/
+    margin: auto;
+    margin-top: 20px;
+
+    
+
+}
+.contenedor_tarjetas{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    background-color: #032438;
+}
+.titulo{
+    background-color: #011826;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;   
+    text-align: center;
+    /*background-image: src="assets/imagenes/baloncesto1.jpg" ;*/
+}
+.parrafo_principal{
+    color: antiquewhite;
+}
+
+.contenedor_componente{
+    background-color: #011826;
+}

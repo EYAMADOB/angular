@@ -1,0 +1,37 @@
+.card{
+    width: 18rem;
+    /*margin-left: 60px;
+    margin: auto;
+    margin-top: 20px;*/
+    width: calc(33.33% - 10px); /* Ancho de cada tarjeta (menos el espacio entre ellas) */
+    margin-bottom: 20px; /* Espacio entre las filas */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    
+
+}
+.contenedor_tarjetas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #032438;
+}
+.titulo{
+    background-color: #011826;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;   
+    text-align: center;
+    /*background-image: src="assets/imagenes/baloncesto1.jpg" ;*/
+}
+.parrafo_principal{
+    color: antiquewhite;
+}
+
+.contenedor_componente{
+    background-color: #011826;
+}
