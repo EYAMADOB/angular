@@ -12,7 +12,7 @@ import { CursosComponent } from './cursos/cursos.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HeaderComponent,ContenedorCentralComponent,FormularioComponent,FooterComponent,ContactoComponent,CardsComponent,NosotrosComponent,ProgramasComponent,CursosComponent],
+  imports: [RouterOutlet,HeaderComponent,ContenedorCentralComponent,FormularioComponent,FooterComponent,ContactoComponent,CardsComponent,NosotrosComponent,ProgramasComponent,CursosComponent,NosotrosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

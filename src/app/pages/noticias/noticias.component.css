@@ -1,0 +1,17 @@
+.titulo{
+    text-align: center;
+    background-color: #011826;
+    color: yellow;
+}
+.parrafo_principal{
+    text-align: center;
+    background-color: #032438;
+    color: white;
+}
+.contenedor_tarjetas{
+    text-align: center;
+    background-color: #032438;
+}
+contenedor_componente{
+    background-color: #032438;
+}
