@@ -39,6 +39,6 @@
         <button (click)="mostrarDatosFormulario()"  type="submit" class=" boton formulario__btn">Enviar</button>
         <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
     </div>
-    <p class="mensaje_error" *ngIf="mostrarMensajeError">este es un mensaje de error</p>
+    <p class="alert alert-danger mt-2 " *ngIf="mostrarMensajeError" [hidden]="this.contactoFormulario.valid || this.contactoFormulario.pristine">datos no validos</p>
     
 </form>

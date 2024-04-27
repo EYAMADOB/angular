@@ -11,8 +11,9 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
 })
 export class FormularioComponent {
   contactoFormulario:FormGroup
-  mostrarMensajeError:boolean=false;
+  mostrarMensajeError:boolean=false
 
+  
  constructor(){
   this.contactoFormulario = new FormGroup(
     {
@@ -31,7 +32,10 @@ export class FormularioComponent {
     ]),
     terminos: new FormControl("",[
       Validators.required
-    ])
+    ]
+     
+  )
+    
     }
     
   )  
@@ -44,5 +48,7 @@ export class FormularioComponent {
   if(!this.contactoFormulario.valid){
     this.mostrarMensajeError=true
   }
+  this.contactoFormulario.reset();
  }
+ 
 }
